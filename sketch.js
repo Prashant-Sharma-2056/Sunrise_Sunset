@@ -32,6 +32,11 @@ function draw(){
     Engine.update(engine);
 
     // write code to display time in correct format here
+     var z = new Date;
+    timeHour = z.getHours();
+    textSize(30)
+    fill("red")
+    text("Time : "+ timeHour, 100, 50);
 
 }
 
